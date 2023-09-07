@@ -10,7 +10,7 @@ const Home = () => {
       <div>
         <div>
             <h1>Shannon's <span>Pizza</span></h1>
-            <p>lorum</p>
+            <p>Welcome to Shannon's pizza house where we aim to please and make your experience one that you'll remember for ages </p>
         </div>
       </div>
     </section>
