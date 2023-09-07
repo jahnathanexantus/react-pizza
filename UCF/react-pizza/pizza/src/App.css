@@ -98,7 +98,7 @@ img {
 .button{
     display: inline-block;
     color: var(--title-color);
-    border: 1px solid var(--first-color);
+    border: 1px solid var(--title-color);
     padding: 15px 70px 15px 35px;
     border-radius: 35px;
     font-family: var(--second-font);
@@ -106,6 +106,8 @@ img {
     position: relative;
     overflow: hidden;
     transition: all 0.25s ease-in-out;
+    margin-top: 100px;
+    margin-left: 171px
 }
 .button:hover{
     color: var(--text-white);
@@ -115,7 +117,7 @@ img {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: var(--first-color);
+    background-color: var(--title-color);
     transform: translateX(100%);
     z-index: -1;
     transition: all 0.3s ease-out;
@@ -126,7 +128,7 @@ img {
 }
 
 .button__icon{
-    background-color: var(--first-color);
+    background-color: var(--title-color);
     position: absolute;
     inset-block: -2px;
     right: 0;
