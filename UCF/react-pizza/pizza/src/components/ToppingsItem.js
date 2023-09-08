@@ -1,4 +1,5 @@
 import React from 'react';
+import './toppings.css'
 
 const ToppingsItem = ({ name, price, addToCart }) => {
   const handleAddToCart = () => {
@@ -6,10 +7,12 @@ const ToppingsItem = ({ name, price, addToCart }) => {
   };
 
   return (
-    <div>
-      <div className='toppings__name'>{name}</div>
-      <p>{price}</p>
-      <button onClick={handleAddToCart}>Choose</button>
+    <div className='toppings__scroll-container'>
+      <div className='toppings__list'>
+        <div className='toppings__name'>{name}</div>
+        <p>{price}</p>
+        <button className='toppings__button' onClick={handleAddToCart}>Choose</button>
+      </div>
     </div>
   );
 };
