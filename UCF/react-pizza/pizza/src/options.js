@@ -8,9 +8,9 @@ export const toppings = [
     {id:7,name:'Sauceses',price:3},
     {id:8,name:'Vegan',price:10},
     {id:9,name:'Anchovies',price:4},
-    // {id:10,name:'margherita',price:13},
-    // {id:11,name:'margherita',price:7},
-    // {id:12,name:'margherita',price:4},
-    // {id:13,name:'margherita',price:1},
-    // {id:14,name:'margherita',price:10}
+    {id:10,name:'margherita',price:13},
+    {id:11,name:'margherita',price:7},
+    {id:12,name:'margherita',price:4},
+    {id:13,name:'margherita',price:1},
+    {id:14,name:'margherita',price:10}
 ]
