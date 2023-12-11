@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { toppings } from "../../options";
 import ToppingsItem from "../../components/ToppingsItem";
 import './menu.css';
-
-
+import { Link } from 'react-router-dom';
 import { calculateTotal } from "./calculateTotal"; 
+
+
+
 
 const Menu = () => {
   const [cart, setCart] = useState([]);
@@ -33,6 +35,7 @@ const Menu = () => {
         <div className="cart__buttons">
         <button className='toppings__button' onClick={order}>Order</button>
         <button className='toppings__button' onClick={reset}>Reset</button>
+        <Link to="/" className='toppings__button'>Home</Link>
       </div>
       </h1>
 
