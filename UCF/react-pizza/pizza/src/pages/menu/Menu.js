@@ -4,7 +4,8 @@ import ToppingsItem from "../../components/ToppingsItem";
 import './menu.css';
 import { Link } from 'react-router-dom';
 import { calculateTotal } from "./calculateTotal"; 
-
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 
@@ -20,7 +21,12 @@ const Menu = () => {
   };
 
   const order = () => {
-    alert("Thank you for shopping with us! Your order has been placed.");
+    if(cart.length===0 || !cart){
+        alert("Must make a selection")
+    }else{
+        alert("Thank you for shopping with us! Your order has been placed.");
+    }
+    
     setCart([]);
   };
 

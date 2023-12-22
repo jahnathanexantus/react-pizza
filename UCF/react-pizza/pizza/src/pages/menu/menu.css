@@ -19,10 +19,11 @@
     border: 3px solid ;
     width: 500px;
     text-align: center;
-    max-height: 70vh;
+    /* max-height: 70vh; */
     border-radius: 30px;
     background-color: var(--body-color);
     box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
+    height: 554px;
 }
 
 .cart__buttons{
